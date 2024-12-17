@@ -1,0 +1,1 @@
+// nesse JS criei uma calculadora para troco baseada em dois valores (o valor do produto comprado e o valor dado como pagamento). O obetivo é facilitar a visualizacao do troco evitando erros de calculos. Em caso de valores incorretos como valor de pagamento inferior ao da compra a calculadora emite um aviso possibilitando a revisao dos valores indicados previamente. 

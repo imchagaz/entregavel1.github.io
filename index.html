@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Troco</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulador de Caixa - Troco Automático</h1>
+    <label for="valorCompra">Valor da Compra (R$):</label>
+    <input type="number" id="valorCompra" placeholder="Ex: 50.00">
+
+    <label for="valorPago">Valor Recebido (R$):</label>
+    <input type="number" id="valorPago" placeholder="Ex: 100.00">
+
+    <button onclick="calcularTroco()">Calcular Troco</button>
+
+    <div id="resultado">
+      <!-- O resultado do cálculo aparece aqui -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
